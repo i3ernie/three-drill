@@ -1,0 +1,51 @@
+{
+  "name": "three-drill",
+  "version": "0.159.23810",
+  "license": "MIT",
+  "description": "driller for three.js objects use three-bvh-csg",
+  "author": "i3ernie",
+  "repository": "https://github.com/i3ernie/three-drill",
+  "type" : "module",
+  "contributors": [],
+  "keywords": [
+    "three.js",
+    "WebGL",
+    "Viewport"
+  ],
+  "dependencies": {
+    "three": "^0.159",
+    "es-module-shims" : "latest"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-rollup": "latest",
+    "jshint": "latest",
+    "lodash": "latest",
+    "rollup": "latest",
+
+    "three-bvh-csg" : "latest",
+   
+    "@rollup/plugin-node-resolve" : "latest",
+    "rollup-plugin-import-map": "latest",
+    "stats": "latest",
+    "three-viewport": "git+https://github.com/i3ernie/three-viewport.git",
+    "dat.gui": "latest"
+  },
+  
+  "directories": {
+    "build": "build",
+    "example": "examples",
+    "dist": "dist",
+    "test": "test"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "init": "npm install",
+    "update": "npm update"
+  }
+}
